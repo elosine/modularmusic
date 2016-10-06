@@ -30,7 +30,7 @@ s.waitForBoot{
 		}, \c_set);
 		0.1.wait;
 		//SYNTHS///////////////////////
-		s.sendMsg(\s_new, \phasorclock, 5000, 0, 300, \abus, 50, \kbus, 0, \dur, 16);
+		s.sendMsg(\s_new, \phasorclock, 5000, 0, 300, \abus, 50, \kbus, 0, \dur, 8);
 	}
 }
 )
