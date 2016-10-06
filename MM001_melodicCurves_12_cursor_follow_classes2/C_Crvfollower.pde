@@ -39,11 +39,12 @@ class Crvfollower {
         break;
       }
     }
-
-    noFill();
-    strokeWeight(3);
-    stroke(255, 0, 255);
-    ellipse(csr.cx, cyx, 15, 15);
+    if (crv.topbtm==csr.topbtm) {
+      noFill();
+      strokeWeight(3);
+      stroke(255, 0, 255);
+      ellipse(csr.cx, cyx, 15, 15);
+    }
   } //End drw
   //
   //
@@ -59,7 +60,7 @@ class CrvfollowerSet {
   // Make Instance Method //
   void mk(int ix, int csrix, int crvix) {
     cset.add( new Crvfollower(ix, csrix, crvix) );
-} //end mk method
+  } //end mk method
 
   // Remove Instance Method //
   void rmv(int ix) {

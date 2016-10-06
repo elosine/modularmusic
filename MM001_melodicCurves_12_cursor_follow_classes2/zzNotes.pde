@@ -1,5 +1,9 @@
 /*
 
+curve follower color
+curve sequencer
+pitch sets
+
 resolve top half/bottom half curve follower
 
 

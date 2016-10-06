@@ -16,9 +16,10 @@ a.sendMsg("/loadcrv", "squig001", 0);
 a.sendMsg("/loadcrv", "squig00", 0);
 a.sendMsg("/loadcrv", "plateaus001", 1);
 a.sendMsg("/loadcrv", "updown", 1);
-a.sendMsg("/mkdrwcrvs", 0, "downup", 0, "purple");
+a.sendMsg("/mkdrwcrvs", 1, "downup", 0, "purple");
 
 a.sendMsg("/mkdrwcrvs", 0, "risingsquig001", 1, "dodgerblue");
 
 
 a.sendMsg("/mkcrvfollower", 1, 0, 0);
+a.sendMsg("/mkcrvfollower", 2, 0, 1);
