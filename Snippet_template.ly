@@ -3,7 +3,7 @@
 
 \paper {
   #(set-paper-size "my size")
-5
+}
 
 
 \header {
